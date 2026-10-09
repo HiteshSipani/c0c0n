@@ -8,7 +8,7 @@ export default function handler(req, res) {
   const name = q.n || 'Analyst';
   const partner = q.partner || '';
   const strikeLi = q.sli || 'https://www.linkedin.com/company/strike48';
-  const partnerLi = q.pli || '';
+  const partnerLi = q.pli || 'https://www.linkedin.com/company/prudent-technologies-and-consulting-inc';
   const brand = partner ? (partner + ' × Strike48') : 'Strike48';
   const partnerTag = partner ? ('Tag @Strike48 and @' + partner) : 'Tag @Strike48';
   const withPartner = partner || 'Strike48';
