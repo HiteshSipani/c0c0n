@@ -13,7 +13,7 @@ export default function handler(req, res) {
   const partnerTag = partner ? ('Tag @Strike48 and @' + partner) : 'Tag @Strike48';
   const withPartner = partner || 'Strike48';
   const caps = [
-    `I raced an Agentic SOC at ${q.ev||'c0c0n 2026'} and lost. It triaged a live attack in ${q.b||'3.5'}s. My best was ${q.t||''}s (${q.r||''}). Work that normally costs me half an hour of pivoting between consoles was done before I finished reading the alert. Thanks Strike48 and Prudent. #c0c0n2026 #AgenticAI #CyberSecurity #SOC #Strike48 #PrudentConsulting`,
+    `I raced an Agentic SOC at ${q.ev||'c0c0n 2026'} and lost. It triaged a live attack in ${q.b||'3.5'}s. My best was ${q.t||''}s (${q.r||''}). Work that normally costs me half an hour of pivoting between consoles was done before I finished reading the alert. Thanks Strike48 and Prudent. #c0c0n2026 #AgenticAI #CyberSecurity #SOC #Strike48 #PrudentConsulting `,
     `Something I learned at ${q.ev||'c0c0n 2026'}. You can't out-click an Agentic SOC. ${q.b||'3.5'}s to triage a live attack, and it still left the judgment call to me. Strike48 and Prudent are at the booth if you want a go. #c0c0n2026 #AgenticAI #SOC #Strike48 #PrudentConsulting`,
     `Raced an AI at ${q.ev||'c0c0n 2026'} and lost on time, ${q.t||''}s against ${q.b||'3.5'}s. Still walked away happy. It did the grinding and I made the call. #c0c0n2026 #CyberSecurity #AgenticAI #Strike48`,
     `Every lanyard in Kochi this week has AI written on it somewhere. At ${q.ev||'c0c0n 2026'}, Strike48 and Prudent actually let me race one. Live attack triaged in ${q.b||'3.5'}s with a human approving every action. I scored ${q.r||''}. #c0c0n2026 #SOC #AgenticAI #Strike48 #PrudentConsulting`,
